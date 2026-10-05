@@ -22,3 +22,27 @@ Install the required Python packages:
 
 ```bash
 pip install -r requirements.txt
+
+
+
+## Code provenance and acknowledgement
+
+SpaGate introduces an upstream feature-enhancement framework that combines
+a PCA-based transcriptional representation with a spatially regularized
+autoencoder representation through a parameter-free variance-guided fusion
+mechanism.
+
+The downstream dual-graph contrastive learning backbone, including related
+graph construction, graph encoding, contrastive learning, and training
+utilities, is adapted from the open-source spCLUE implementation:
+
+Wang, X., Li, W. V., and Li, H. (2025).
+spCLUE: a contrastive learning approach to unified spatial transcriptomics
+analysis across single-slice and multi-slice data.
+Genome Biology, 26, 177.
+
+Original repository:
+https://github.com/EnchantedJoy/spCLUE
+
+spCLUE is distributed under the MIT License. The original copyright notice
+and license are retained in `LICENSES/spCLUE_LICENSE.txt`.
